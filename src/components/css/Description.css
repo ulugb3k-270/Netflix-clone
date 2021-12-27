@@ -1,0 +1,57 @@
+.description {
+  background: #111;
+  height: 100vh;
+}
+
+.desctiption__bottom {
+  max-width: 1400px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.desctiption__bottomLeft {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.desctiption__bottomLeft::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  right: 4%;
+  background-color: grey;
+}
+
+.desctiption__bottomLeft > img {
+  width: 156px;
+  height: 244px;
+  object-fit: contain;
+}
+
+.des__bottomLeftText {
+  color: white;
+}
+
+.desctiption__bottomRight > h2 {
+  color: white;
+}
+
+.desctiption__bottomRight > p {
+  color: white;
+  max-width: 500px;
+  width: 100%;
+}
+
+.des__bottomDetails {
+  color: gray;
+}
+
+.des__bottomDetails > span {
+  color: white;
+}
